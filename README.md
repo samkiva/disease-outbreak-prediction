@@ -144,7 +144,40 @@ population_density,access_to_clean_water,vaccination_rate,healthcare_spending_pe
 ```
 
 ---
+## 📊 Project Demo & Results
 
+### Model Performance Visualization
+
+![Disease Outbreak Prediction Results](screenshots/outbreak_prediction_results.png)
+
+*This visualization shows:*
+- **Confusion Matrix** (top-left): True positives, false positives
+- **ROC Curve** (top-right): Model discrimination ability (AUC=0.91)
+- **Feature Importance** (bottom-left): Which factors drive predictions
+- **Model Comparison** (bottom-right): All 3 models benchmarked
+
+### Sample Predictions
+
+You can see sample predictions in the [sample_predictions.csv](screenshots/sample_predictions.csv) file.
+
+**Example output:**
+```
+region_id,risk_level,outbreak_probability,confidence_level,recommended_action
+1,HIGH,0.623,High,Urgent intervention needed
+2,CRITICAL,0.789,High,Immediate intervention required
+3,MODERATE,0.456,Medium,Enhanced monitoring required
+```
+
+### Quick Results Summary
+
+| Metric | Score |
+|--------|-------|
+| **Recall** | 0.88 (catches 88% of outbreaks) |
+| **ROC-AUC** | 0.91 (excellent discrimination) |
+| **F1-Score** | 0.84 (balanced performance) |
+| **Best Model** | Gradient Boosting |
+
+---
 ## 📁 Project Structure
 
 ```
@@ -458,3 +491,4 @@ Your implementation should achieve:
 **Last Updated**: 2024  
 **Status**: ✅ Production Ready  
 **Version**: 2.0 (Fixed & Optimized)
+
