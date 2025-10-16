@@ -1,0 +1,80 @@
+{
+  "Logistic Regression": {
+    "f1": 0.7773279352226721,
+    "recall": 0.7773279352226721,
+    "roc_auc": 0.9129050925925926,
+    "optimal_threshold": 0.591361919656077,
+    "best_params": {
+      "C": 0.10778765841014329,
+      "class_weight": "balanced",
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 1000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": 42,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "Random Forest": {
+    "f1": 0.8532110091743119,
+    "recall": 0.8532110091743119,
+    "roc_auc": 0.9566936728395061,
+    "optimal_threshold": 0.5946784291405804,
+    "best_params": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": 20,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": 0.8001125833417065,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 5,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 251,
+      "n_jobs": -1,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "Gradient Boosting": {
+    "f1": 0.8623853211009175,
+    "recall": 0.8623853211009175,
+    "roc_auc": 0.964795524691358,
+    "optimal_threshold": 0.6366023371385184,
+    "best_params": {
+      "ccp_alpha": 0.0,
+      "criterion": "friedman_mse",
+      "init": null,
+      "learning_rate": 0.09868494971711618,
+      "loss": "log_loss",
+      "max_depth": 3,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 4,
+      "min_weight_fraction_leaf": 0.0,
+      "n_estimators": 234,
+      "n_iter_no_change": null,
+      "random_state": 42,
+      "subsample": 0.7511572371061874,
+      "tol": 0.0001,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    }
+  }
+}

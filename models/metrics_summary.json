@@ -1,0 +1,26 @@
+{
+  "best_model": "Logistic Regression",
+  "timestamp": "2025-10-17T00:04:55.090900",
+  "metrics": {
+    "accuracy": 0.8266666666666667,
+    "precision": 0.45454545454545453,
+    "recall": 0.7777777777777778,
+    "f1": 0.5737704918032787,
+    "roc_auc": 0.903355119825708,
+    "optimal_threshold": 0.7929030879761871
+  },
+  "best_hyperparameters": {
+    "C": 1.934347898661638,
+    "class_weight": "balanced"
+  },
+  "feature_names": [
+    "population_density",
+    "access_to_clean_water",
+    "vaccination_rate",
+    "healthcare_spending_per_capita",
+    "avg_temperature",
+    "rainfall_mm",
+    "malnutrition_rate",
+    "urbanization_rate"
+  ]
+}
